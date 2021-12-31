@@ -3,10 +3,9 @@ sap.ui.define([
 ], function (Controller) {
 	"use strict";
 
-	return Controller.extend("ZYH.ZYH_DIFF.controller.App", {
+	return Controller.extend("ZYH.ZYH_TEST_DIF.controller.App", {
 		onInit: function () {
-			//test1
-			//test2
+			//test7
 		}
 	});
 });

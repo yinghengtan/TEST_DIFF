@@ -1,6 +1,6 @@
 specVersion: '1.0'
 metadata:
-  name: ZYH_DIFF
+  name: ZYH_TEST_DIF
 type: application
 resources:
   configuration:

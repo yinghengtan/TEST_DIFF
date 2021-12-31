@@ -1,7 +1,7 @@
 /*global QUnit*/
 
 sap.ui.define([
-	"ZYH/ZYH_DIFF/controller/App.controller"
+	"ZYH/ZYH_TEST_DIF/controller/App.controller"
 ], function (Controller) {
 	"use strict";
 

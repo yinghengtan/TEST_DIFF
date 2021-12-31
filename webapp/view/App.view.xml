@@ -1,4 +1,4 @@
-<mvc:View controllerName="ZYH.ZYH_DIFF.controller.App" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
+<mvc:View controllerName="ZYH.ZYH_TEST_DIF.controller.App" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
 	<Shell id="shell">
 		<App id="app">
 			<pages>

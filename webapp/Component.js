@@ -1,11 +1,11 @@
 sap.ui.define([
 	"sap/ui/core/UIComponent",
 	"sap/ui/Device",
-	"ZYH/ZYH_DIFF/model/models"
+	"ZYH/ZYH_TEST_DIF/model/models"
 ], function (UIComponent, Device, models) {
 	"use strict";
 
-	return UIComponent.extend("ZYH.ZYH_DIFF.Component", {
+	return UIComponent.extend("ZYH.ZYH_TEST_DIF.Component", {
 
 		metadata: {
 			manifest: "json"

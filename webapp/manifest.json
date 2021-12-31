@@ -1,7 +1,7 @@
 {
 	"_version": "1.12.0",
 	"sap.app": {
-		"id": "ZYH.ZYH_DIFF",
+		"id": "ZYH.ZYH_TEST_DIF",
 		"type": "application",
 		"i18n": "i18n/i18n.properties",
 		"applicationVersion": {
@@ -14,7 +14,6 @@
 			"version": "1.40.12"
 		}
 	},
-
 	"sap.ui": {
 		"technology": "UI5",
 		"icons": {
@@ -31,11 +30,10 @@
 			"phone": true
 		}
 	},
-
 	"sap.ui5": {
 		"flexEnabled": false,
 		"rootView": {
-			"viewName": "ZYH.ZYH_DIFF.view.App",
+			"viewName": "ZYH.ZYH_TEST_DIF.view.App",
 			"type": "XML",
 			"async": true,
 			"id": "App"
@@ -56,30 +54,36 @@
 			"i18n": {
 				"type": "sap.ui.model.resource.ResourceModel",
 				"settings": {
-					"bundleName": "ZYH.ZYH_DIFF.i18n.i18n"
+					"bundleName": "ZYH.ZYH_TEST_DIF.i18n.i18n"
 				}
 			}
 		},
 		"resources": {
-			"css": [{
-				"uri": "css/style.css"
-			}]
+			"css": [
+				{
+					"uri": "css/style.css"
+				}
+			]
 		},
 		"routing": {
 			"config": {
 				"routerClass": "sap.m.routing.Router",
 				"viewType": "XML",
 				"async": true,
-				"viewPath": "ZYH.ZYH_DIFF.view",
+				"viewPath": "ZYH.ZYH_TEST_DIF.view",
 				"controlAggregation": "pages",
 				"controlId": "app",
 				"clearControlAggregation": false
 			},
-			"routes": [{
-				"name": "RouteApp",
-				"pattern": "RouteApp",
-				"target": ["TargetApp"]
-			}],
+			"routes": [
+				{
+					"name": "RouteApp",
+					"pattern": "RouteApp",
+					"target": [
+						"TargetApp"
+					]
+				}
+			],
 			"targets": {
 				"TargetApp": {
 					"viewType": "XML",
@@ -87,6 +91,10 @@
 					"clearControlAggregation": false,
 					"viewId": "App",
 					"viewName": "App"
+				},
+				"View2": {
+					"viewType": "XML",
+					"viewName": "View2"
 				}
 			}
 		}

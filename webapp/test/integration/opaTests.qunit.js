@@ -5,7 +5,7 @@ sap.ui.getCore().attachInit(function () {
 	"use strict";
 
 	sap.ui.require([
-		"ZYH/ZYH_DIFF/test/integration/AllJourneys"
+		"ZYH/ZYH_TEST_DIF/test/integration/AllJourneys"
 	], function () {
 		QUnit.start();
 	});

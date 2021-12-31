@@ -7,7 +7,7 @@ sap.ui.define([
 
 	Opa5.extendConfig({
 		arrangements: new Startup(),
-		viewNamespace: "ZYH.ZYH_DIFF.view.",
+		viewNamespace: "ZYH.ZYH_TEST_DIF.view.",
 		autoWait: true
 	});
 });
