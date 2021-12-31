@@ -1,9 +1,11 @@
-<mvc:View controllerName="ZYH.ZYH_TEST_DIF.controller.App" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="ZYH.ZYH_TEST_DIF.controller.App" displayBlock="true">
 	<Shell id="shell">
 		<App id="app">
 			<pages>
 				<Page id="page" title="{i18n>title}">
-					<content></content>
+					<content>
+					    <Button xmlns="sap.m" text="test" id="button0"/>
+					</content>
 				</Page>
 			</pages>
 		</App>
